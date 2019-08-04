@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Circle
+comment1.params=x1\ y1\ r
+comment1.target=void\ getData(double,\ double,\ double)
+comment2.params=
+comment2.target=double\ calculateArea()
+comment3.params=
+comment3.target=double\ calculatePerimeter()
+numComments=4
