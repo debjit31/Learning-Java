@@ -60,7 +60,6 @@ class Test
     public static void main(String[] args)
     {
         Scanner sc =  new Scanner(System.in);
-	System.out.println("Enter the details about your Bus :- ");
         System.out.println("Enter route Number :- ");
         int route = sc.nextInt();
         System.out.println("Enter registration number :- ");
@@ -73,19 +72,11 @@ class Test
         String owner = sc.next();
         System.out.println("Enter manufacturer name :- ");
         String manu = sc.next();
+        
+        System.out.println("Enter the details about your Bus :- ");
         Bus b = new Bus(reg, speed, color, owner, route);
         b.showData();
-	System.out.println("Enter the details about your Car :- ");
-	System.out.println("Enter registration number :- ");
-        reg = sc.nextInt();
-        System.out.println("Enter speed of the car :- ");
-         speed = sc.nextInt();
-        System.out.println("Enter color = ");
-         color = sc.next();
-        System.out.println("Enter owner name :- ");
-        owner = sc.next();
-        System.out.println("Enter manufacturer name :- ");
-        manu = sc.next();
+        System.out.println("Enter the details about your Car :- ");
         Car c = new Car(reg, speed, color, owner, manu);
         c.showData();
     }

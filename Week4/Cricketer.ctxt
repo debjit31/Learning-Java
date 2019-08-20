@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cricketer
+comment1.params=age\ runsScored\ matchesPlayed
+comment1.target=Cricketer(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ print()
+numComments=3

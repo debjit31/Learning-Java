@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment1.params=regnNumber\ speed\ color\ ownerName
+comment1.target=Vehicle(int,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ showData()
+numComments=3

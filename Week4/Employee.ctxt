@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Employee
+comment1.params=
+comment1.target=Employee()
+comment2.params=val
+comment2.target=void\ display(java.lang.String)
+numComments=3
