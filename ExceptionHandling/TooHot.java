@@ -1,6 +1,7 @@
-class TooHot extends Exception
+package excep;
+public class TooHot extends Exception
 {
-	TooHot()
+	public TooHot()
 	{
 		super("TooHot Exception!!!");
 	}

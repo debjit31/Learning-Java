@@ -1,5 +1,7 @@
 import java.io.*;
 import java.util.*;
+import excep.TooHot;
+import excep.TooCold;
 class TempExceptionTest
 {
 	public static void main(String[] args)

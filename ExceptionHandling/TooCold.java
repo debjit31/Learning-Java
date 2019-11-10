@@ -1,6 +1,7 @@
-class TooCold extends Exception
+package excep;
+public class TooCold extends Exception
 {
-	TooCold()
+	public TooCold()
 	{
 		super("TooCold Exception!!!");
 	}
