@@ -26,7 +26,7 @@ class TempExceptionTest
 		}
 		catch(TooCold e)
 		{
-			System.out.println(e);
+			System.out.println(e.toString());
 		}
 	}
 }
